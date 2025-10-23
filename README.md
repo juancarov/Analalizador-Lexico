@@ -139,6 +139,7 @@ Explicación:
 
 #### Reglas Gramaticales
 
+<pre>
 PROGRAMA   → SENTENCIA*
 SENTENCIA   → DEF_FUNCION | CLASE | IF | FOR | WHILE | PRINT | INPUT | RETURN | EXPRESION
 DEF_FUNCION   → "def" ID "(" PARAMS ")" ":" SENTENCIA
@@ -147,6 +148,7 @@ IF   → "if" EXPRESION ":" SENTENCIA ( "elif" EXPRESION ":" SENTENCIA )* ( "els
 FOR   → "for" ID "in" EXPRESION ":" SENTENCIA
 WHILE   → "while" EXPRESION ":" SENTENCIA
 EXPRESION   → ID | NUM | (EXPRESION OPERADOR EXPRESION) | (EXPRESION) | [LISTA] | {DICCIONARIO}
-
+</pre>
 Estas reglas representan una versión reducida de la gramática de Python.
 Se permite el uso de expresiones aritméticas, listas, diccionarios y estructuras de control.
+</pre>
