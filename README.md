@@ -137,7 +137,7 @@ Explicación:
 - Si algo no coincide, genera un error con la posición exacta.
 - El programa se detiene en el primer error.
 
-#### Reglas Gramaticales
+### Reglas Gramaticales
 
 <pre>
 PROGRAMA   → SENTENCIA*
@@ -152,3 +152,44 @@ EXPRESION   → ID | NUM | (EXPRESION OPERADOR EXPRESION) | (EXPRESION) | [LISTA
 Estas reglas representan una versión reducida de la gramática de Python.
 Se permite el uso de expresiones aritméticas, listas, diccionarios y estructuras de control.
 </pre>
+
+### Pruebas de Funcionamiento
+
+#### Funcionamiento Correcto
+
+##### Ejemplo 1:
+
+```python
+def sumar(a, b):
+    print(a + b)
+    return a + b
+```
+![salida_ok_1](ok_1.png)
+
+##### Ejemplo 2:
+
+```python
+if True:
+    numeros = [1, 2, 3]
+    print(numeros)
+else:
+    print("lista vacia")
+```
+
+![salida_ok_2](ok_2.png)
+
+##### Ejemplo 3: 
+
+```python
+class Persona:
+    def __init__(self, nombre):
+        print(nombre)
+
+for i in [1, 2, 3]:
+    print(i)
+```
+
+![salida_ok_3](ok_3.png)
+
+
+
