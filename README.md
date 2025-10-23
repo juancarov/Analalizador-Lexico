@@ -191,5 +191,39 @@ for i in [1, 2, 3]:
 
 ![salida_ok_3](ok_3.png)
 
+#### Manejo de Errores:
 
+##### Ejemplo 1:
+
+```python3
+def contains(items:[int ,]
+```
+
+![salida_no_ok_1](no_ok_1.png)
+
+##### Ejemplo 2:
+
+```python3
+if True
+    print("ok")
+```
+
+![salida_no_ok_2](no_ok_2.png)
+
+##### Ejemplo 3: 
+
+```python3
+def sumar(a, b):
+    print(a + )
+```
+
+![salida_no_ok_3](no_ok_3.png)
+
+### Conclusiones
+
+El proyecto desarrollado demuestra el funcionamiento interno de un analizador sintáctico construido completamente desde cero, sin el uso de librerías externas. A través de programación pura, se implementaron las etapas fundamentales de un compilador: el análisis léxico y el análisis sintáctico.
+
+El analizador es capaz de identificar correctamente estructuras del lenguaje Python como funciones, clases, condicionales, ciclos, listas, diccionarios, cadenas de texto y operadores. Además, detecta y reporta con precisión los errores sintácticos, indicando la línea, columna y el símbolo inesperado, tal como lo hacen los compiladores reales.
+
+Con este trabajo se comprendió de manera práctica cómo los lenguajes de programación procesan su código internamente, fortaleciendo el entendimiento de las fases de traducción, la estructura de la gramática y la importancia del manejo de errores en la validación de programas.
 
