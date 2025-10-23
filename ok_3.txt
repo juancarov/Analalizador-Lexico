@@ -1,0 +1,6 @@
+class Persona:
+    def __init__(self, nombre):
+        print(nombre)
+
+for i in [1, 2, 3]:
+    print(i)
